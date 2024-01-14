@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "name": "btw-insta-link-repo",
+  "version": "1.0.0",
+  "description": "Btw or by the way is almost copy of Instagram, Twitter and Threads compatible NGL.LINK but with a one twist, senders messages seem anonymous but they are not =)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikabara/btw-insta-link-repo.git"
+  },
+  "author": "Nick Baratashvili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikabara/btw-insta-link-repo/issues"
+  },
+  "homepage": "https://github.com/nikabara/btw-insta-link-repo#readme"
+}
