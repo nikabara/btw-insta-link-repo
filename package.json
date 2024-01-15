@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/nikabara/btw-insta-link-repo/issues"
   },
-  "homepage": "https://github.com/nikabara/btw-insta-link-repo#readme"
+  "homepage": "https://github.com/nikabara/btw-insta-link-repo#readme",
+  "dependencies": {
+    "mailslurp-client": "^15.17.5"
+  }
 }
