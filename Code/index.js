@@ -1,22 +1,9 @@
-const sendBtn = document.querySelector(".send_btn");
+import { sendEmail } from "../API/send-email-API.js";
 
-const sendEmail = () => {
-    Email.send
-    ({
-        Host : "smtp.elasticemail.com",
-        Username : "nikobar3005@gmail.com",
-        Password : "3E95B6DB198797D0216F5740888979ACFA7F",
-        To : 'nikobar3005@gmail.com',
-        From : "nikobar3005@gmail.com",
-        Subject : "BTW",
-        Body : "Ahahahahahahahhaha ppl are fucked ahahahahahah"
-    })
-    .then(message => alert(message)
-    );
-}
+const sendBtn = document.querySelector(".send_btn");
 
 window.onload = () => {
     sendBtn.onclick = () => {
-        sendEmail();
+        sendEmail("nikobar3005@gmail.com", "nikobar3005@gmail.com", "@instagram", "I got all the info");
     }
 }
