@@ -1,11 +1,11 @@
-export const sendEmail = (email_to, email_from, header, message) => {
+export const sendEmail = (header, message) => {
     Email.send
     ({
         Host : "smtp.elasticemail.com",
-        Username : email,
+        Username : "nikobar3005@gmail.com",
         Password : "3E95B6DB198797D0216F5740888979ACFA7F",
-        To : email_to,
-        From : email_from,
+        To : "bythewayapp07@gmail.com",
+        From : "nikobar3005@gmail.com",
         Subject : header,
         Body : message
     })

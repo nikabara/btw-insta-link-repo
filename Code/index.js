@@ -2,8 +2,10 @@ import { sendEmail } from "../API/send-email-API.js";
 
 const sendBtn = document.querySelector(".send_btn");
 
+let emailMessage = document.getElementById("email-box-input-id");
 window.onload = () => {
+
     sendBtn.onclick = () => {
-        sendEmail("nikobar3005@gmail.com", "nikobar3005@gmail.com", "@instagram", "I got all the info");
+        sendEmail("@instagram", `${emailMessage.value}`);
     }
 }

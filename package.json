@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/nikabara/btw-insta-link-repo#readme",
   "dependencies": {
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.3",
     "mailslurp-client": "^15.17.5"
   }
 }

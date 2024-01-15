@@ -1,0 +1,149 @@
+@font-face {
+    font-family: mulish;
+    src: url(../Fonts/Mulish-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: roboto-slab;
+    src: url(../Fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;    
+}
+
+.top-runner {
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;    
+
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: roboto-slab;
+}
+
+.main-holder{
+    margin: auto;
+    height: 70vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.email-box {
+    background-color: #ffffff44;
+
+    width: 350px;
+    height: 200px;
+    border-radius: 21px;
+}   
+
+.email-box-top {
+    width: 100%;
+    height: 30%;
+    border-radius: 21px 21px 0px 0px;
+
+    background-color:  #ffffff;
+}
+
+.email-box-top {
+    display: flex;
+    align-items: center;
+    padding-left: 15px
+}
+
+.instagram-logo-background {
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #b2b2b25d;
+    border-radius: 100px;
+}
+
+.bi-instagram {
+    color: black;
+    width: 15px;
+    height: 15px;
+}
+
+.my-tag {
+    font-family: mulish;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.my-content {
+    font-family: roboto-slab;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 1500;
+}
+
+.email-box-input {
+    width: 100%;
+    margin-left: auto;
+    max-width: 100%;
+    height: 70%;
+
+    border: none;
+    border-radius: 0px 0px 21px 21px;
+    outline: none;
+
+    background: #ffffff44;
+
+    resize: none;
+
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+
+    font-family: roboto-slab;
+}
+
+.send_btn {
+    margin-top: 30px;
+    background-color: black;
+
+    border: none;
+    outline: none;
+
+    width: 350px;
+    border-radius: 25px;
+    height: 50px;
+
+    font-size: 15px;
+    font-family: roboto-slab;
+    color: #ffffff;
+
+    transition: 0.2s ease-in-out;
+}
+
+.send_btn:hover {
+    background-color: white;
+    color: black;
+}
