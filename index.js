@@ -1,4 +1,4 @@
-import { sendEmail } from "../API/send-email-API.js";
+import { sendEmail } from "./send-email-API.js";
 
 const sendBtn = document.querySelector(".send_btn");
 

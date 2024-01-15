@@ -1,11 +1,11 @@
 @font-face {
     font-family: mulish;
-    src: url(../Fonts/Mulish-VariableFont_wght.ttf);
+    src: url(Fonts/Mulish-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: roboto-slab;
-    src: url(../Fonts/RobotoSlab-VariableFont_wght.ttf);
+    src: url(Fonts/RobotoSlab-VariableFont_wght.ttf);
 }
 
 * {
